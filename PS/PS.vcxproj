@@ -19,7 +19,10 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="2947.cpp" />
+    <ClInclude Include="ps.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="2444.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>

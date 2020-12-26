@@ -15,7 +15,12 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="2947.cpp">
+    <ClInclude Include="ps.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="2444.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

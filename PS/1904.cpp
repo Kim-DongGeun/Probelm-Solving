@@ -14,8 +14,15 @@ const int dy[4] = { 0,-1,0,1 };
 
 using namespace std;
 
-int main() {
+int arr[1000001];
 
+int main() {
+	int n;
+	cin >> n;
+
+	printf("%.6f\n", n * n * 3.14159265358979323846);
+	printf("%.6f\n", n * n * 2.0);
+	
 	return 0;
 }
 

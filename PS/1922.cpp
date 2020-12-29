@@ -14,17 +14,11 @@ const int dy[4] = { 0,-1,0,1 };
 
 using namespace std;
 
+vector<pair<int, int>> edge[1001];
+vector<bool> visited(1001);
+
 int main() {
 	cin.tie(0); cout.tie(0); ios_base::sync_with_stdio(false);
-
-	return 0;
-}
-
-
-
-void kruskal() {
-	vector<pair<int, int>> edge[1001];
-	vector<bool> visited(1001);
 
 	int n, m;
 	cin >> n >> m;
@@ -57,7 +51,9 @@ void kruskal() {
 			}
 		}
 	}
-	cout << ans;
-}
 
+	cout << ans;
+
+	return 0;
+}
 

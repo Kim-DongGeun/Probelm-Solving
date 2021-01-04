@@ -22,7 +22,13 @@
     <ClInclude Include="ps.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="2963.py" />
+    <ClCompile Include="11066.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="14943.cpp" />
+    <ClCompile Include="2357.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
